@@ -1,66 +1,13 @@
-body{
-    font-family: 'Space Mono', monospace;
-    background-color: #c9f0ff;
-    margin: 32px 112px;
+
+img {
+    height: 100%;
+    width: 50%;
+    margin: 32px 0px;
 }
 
-body {
+#main {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
-}
-
-.section {
-    border: 5px solid #111517;
-    box-shadow: 10px 12px #FF337E;
-}
-
-header, nav {
-    margin-bottom: 48px;
-}
-
-nav .section {
-    width: 8em;
-    height: 3em;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 3em;
-}
-
-a {
-    color: #111517;
-}
-
-button {
-    background-color: #c9f0ff;
-    border: none;
-    font-size: 28px;
-    font-family: 'Space Mono', monospace;
-    font-weight: 700;
-}
-
-h1 {
-    text-align: center;
-    font-size: 48px;
-    color: #111517;
-}
-
-h1 a {
-    text-decoration: none;
-}
-
-ul {
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-}
-
-li {
-    font-size: 22px;
-    text-decoration: underline;
-    
-}
-
-p {
-    margin: 12px 12px;
 }
