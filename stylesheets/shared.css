@@ -1,3 +1,7 @@
+* {
+    cursor: url("../images/cursor.cur"), auto;
+}
+
 body{
     font-family: 'Space Mono', monospace;
     background-color: #c9f0ff;
@@ -9,7 +13,7 @@ body{
 
 .section {
     border: 5px solid #111517;
-    box-shadow: 10px 12px #FF337E;
+    box-shadow: 12px 18px #FF337E;
 }
 
 header, nav {
@@ -58,7 +62,7 @@ ul {
 li {
     font-size: 24px;
     text-decoration: underline;
-    
+    text-align: center;
 }
 
 p {
