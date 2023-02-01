@@ -21,9 +21,21 @@
 
     }
 
-    /* #toggle-nav {
-        
-    } */
+    #toggle-nav {
+        height: 40px;
+        margin: 0 auto;
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0px 6px;
+    }
+
+    #toggle-nav img {
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-left: 18px;
+    }
 
 }
 

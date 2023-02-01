@@ -56,3 +56,27 @@
     } */
 }
 
+@media screen and (min-width: 1024px){
+    #portf-nav-item {
+        padding: 2px 2px 0px 2px;
+        margin-bottom: 8px;
+
+    }
+
+    #project-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 120px;
+        
+    }
+
+    .project {
+        width: 260px;
+        height: 260px;
+        margin: 16px 12px ;
+    }
+
+    .project img {
+        width: 120px;
+        height: 120px;
+    }
+}
