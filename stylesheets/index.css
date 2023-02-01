@@ -21,4 +21,27 @@
 
     }
 
+    /* #toggle-nav {
+        
+    } */
+
+}
+
+@media screen and (min-width: 1024px ) {
+    #main {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 40vh;
+    }
+
+    main {
+        margin-top: 120px;
+    }
+
+    
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
 }

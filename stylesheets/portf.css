@@ -11,6 +11,7 @@
         grid-template-columns: 1fr 1fr;
         box-shadow: none;
         border: none;
+        width: 100%;
         
     }
 
@@ -43,3 +44,15 @@
     
 
 }
+
+@media screen and (min-width: 768px ) {
+    #project-grid {
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        width: 100%;
+    }
+
+    /* .project {
+        
+    } */
+}
+
