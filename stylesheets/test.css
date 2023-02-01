@@ -1,0 +1,28 @@
+.underline {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 30px;
+  }
+  
+  .underline::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    animation: slide-in 0.7s ease-in-out forwards;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
