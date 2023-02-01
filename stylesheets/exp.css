@@ -10,4 +10,16 @@
         font-size: 32px;
     }
 
+    .right-arrow {
+        width: 40px;
+        height: 40px;
+        margin-bottom: -12px;
+    }
+
+    .card {
+        border: 5px solid #111517;
+        box-shadow: 12px 18px #ff337e;
+    }
+    
+
 }
